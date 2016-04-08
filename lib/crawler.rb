@@ -28,7 +28,7 @@ class WikipediaCrawler
   private
 
   def is_philospher?(name)
-    name.downcase.include?("philosphopher")
+    name.downcase.include?("philosophy")
   end
 
   def get_page(url)
